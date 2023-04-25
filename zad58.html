@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Zadanie 58</title>
+    <style>
+      h1 {
+        font-size: 36px;
+        font-family: Arial;
+      }
+      p {
+        font-size: 16px;
+        font-family: Arial;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Zadanie 58 - Pseudoklasy</h1>
+    <ol>
+      <li>Co to są pseudoklasy?</li>
+      <p>Pseudoklasy są to specjalne selektory CSS, które pozwalają na zastosowanie stylów do elementów w zależności od ich stanu lub położenia w dokumencie. Przykłady pseudoklas to :hover, :active, :focus czy :first-child.</p>
+      <li>Uwaga dotycząca dwukropka:</li>
+      <p>Dwukropek w CSS jest stosowany do oddzielenia nazwy selektora od pseudoklasy lub właściwości CSS od wartości. Na przykład: <code>p:hover { color: red; }</code> oznacza, że gdy kursor znajdzie się nad elementem p, jego kolor zostanie zmieniony na czerwony.</p>
+      <li>Tabela opisującą pseudoklasy:</li>
+      <table>
+        <tr>
+          <th>Pseudoklasa</th>
+          <th>Opis</th>
+        </tr>
+        <tr>
+          <td>:hover</td>
+          <td>Styl zastosowany, gdy kursor znajduje się nad elementem</td>
+        </tr>
+        <tr>
+          <td>:active</td>
+          <td>Styl zastosowany, gdy element jest aktywny (np. po kliknięciu)</td>
+        </tr>
+        <tr>
+          <td>:focus</td>
+          <td>Styl zastosowany, gdy element ma focus (np. po wybraniu pola formularza)</td>
+        </tr>
+        <tr>
+          <td>:first-child</td>
+          <td>Styl zastosowany do pierwszego dziecka elementu</td>
+        </tr>
+        <tr>
+          <td>:last-child</td>
+          <td>Styl zastosowany do ostatniego dziecka elementu</td>
+        </tr>
+      </table>
+      <li>Zastosowanie pseudoklasy :active:</li>
+      <p>Pseudoklasa :active jest używana do zastosowania stylów do elementu w momencie, gdy jest on aktywny, np. po kliknięciu na przycisk. Przykład:</p>
+      <code>button:active { background-color: blue; }</code>
+      <li>Przykłady kodów definiowania pseudoklas:</li>
+      <ul>
+        <li>:hover - <code>a:hover { text-decoration: underline; }</code></li>
+        <li>:first-child - <code>p:first-child

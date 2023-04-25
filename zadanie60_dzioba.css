@@ -1,0 +1,35 @@
+/* Zadanie 60 - Konrad Dzioba */
+/* hover - efekt po najechaniu myszką */
+/* Opis efektu: po najechaniu myszką na element zmienia się jego styl */
+
+/* Zapisuję moje imię i nazwisko */
+/* Konrad Dzioba */
+
+/* Wszystkie bloki mają szerokość 600+8[px] i kolor tła zielony */
+#blok1_dzioba, #blok2_dzioba, #blok3_dzioba {
+	width: 608px;
+	height: 200px;
+	background-color: green;
+	margin-bottom: 20px;
+}
+
+/* Po najechaniu myszką na blok1 zmienia się jego kolor tła na pomarańczowy */
+#blok1_dzioba:hover {
+	background-color: orange;
+}
+
+/* Po najechaniu myszką na blok2 zmienia się jego kolor tła na niebieski */
+#blok2_dzioba:hover {
+	background-color: blue;
+}
+
+/* Po najechaniu myszką na blok3 zmienia się jego kolor tła na turkusowy */
+#blok3_dzioba:hover {
+	background-color: turquoise;
+}
+
+/* Wielkość liter */
+/* Wiekość_liter=(18+reszta_z_dzielenia(6 przez 4)[mm]) */
+body {
+	font-size: calc(18px + 6mm % 4);
+}

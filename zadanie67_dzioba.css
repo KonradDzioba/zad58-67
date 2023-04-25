@@ -1,0 +1,45 @@
+/* Style dla nagłówka H1 */
+h1 {
+	font-size: 50px;
+	color: #6a5acd;
+	text-align: center;
+}
+
+/* Pseudoelement :first-letter dla H1 */
+h1:first-letter {
+	font-size: 120px;
+	color: silver;
+}
+
+/* Style dla pierwszego akapitu */
+.first-paragraph {
+	font-size: 15pt;
+	color: #008080;
+	line-height: 21pt;
+}
+
+/* Pseudoelement :first-letter dla pierwszego akapitu */
+.first-paragraph:first-letter {
+	font-size: 120pt;
+	color: #6a5acd;
+}
+
+/* Style dla drugiego akapitu */
+.second-paragraph {
+	font-size: 13pt;
+	color: #006400;
+	line-height: 19pt;
+}
+
+/* Pseudoelement :first-letter dla drugiego akapitu */
+.second-paragraph:first-letter {
+	font-size: 120pt;
+	color: silver;
+}
+ 
+/* Pseudoelement :first-line dla akapitu */
+p:first-line {
+	font-weight: bold;
+	font-size: 18pt;
+	color: #008080;
+}

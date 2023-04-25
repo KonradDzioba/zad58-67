@@ -1,0 +1,18 @@
+body {
+  background-color: silver;
+}
+
+p {
+  font-size: calc(18px + 6 % 4);
+  color: rgb(255, 255, 0); /* żółty */
+}
+
+p[lang="pl"] {
+  font-size: calc(25px + 6 % 4);
+  color: rgb(255, 215, 0); /* złoty */
+}
+
+p[lang="en"] {
+  font-size: calc(32px + 6 % 4);
+  color: rgb(192, 192, 192); /* srebrny */
+}

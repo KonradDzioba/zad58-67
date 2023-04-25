@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 65</title>
+  <style>
+    /* styl dla całego dokumentu */
+    body {
+      background-color: silver;
+      font-size: 18px;
+    }
+    
+    /* styl dla akapitu P */
+    p {
+      font-size: calc(18px + 6px % 4);
+      color: rgb(255, 255, 0); /* żółty */
+    }
+    
+    /* styl dla akapitu P w języku polskim */
+    p:lang(pl) {
+      font-size: calc(25px + 6px % 4);
+      color: rgb(255, 215, 0); /* złoty */
+    }
+    
+    /* styl dla akapitu P w języku angielskim */
+    p:lang(en) {
+      font-size: calc(32px + 6px % 4);
+      color: silver;
+    }
+  </style>
+</head>
+<body>
+  <p>Uwagi na temat pisania w CSS</p>
+  <p lang="pl">Co to jest CSS</p>
+  <p lang="en">What is CSS</p>
+
+  <a href="kod66.txt">Kod zadania 66</a>
+
+  <style>
+    /* styl dla pseudoelementu :first-line */
+    p:first-line {
+      font-weight: bold;
+    }
+
+    /* styl dla pseudoelementu :after */
+    p:after {
+      content: " - koniec akapitu";
+      color: red;
+    }
+
+    /* styl dla pseudoelementu :before */
+    p:before {
+      content: "Początek akapitu - ";
+      color: blue;
+    }
+
+    /* styl dla pseudoelementu :first-letter */
+    p:first-letter {
+      font-size: 48px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</body>
+</html>
